@@ -237,8 +237,7 @@ inline void keepWindowOpen() {
 }
 
 
-inline void clearScreen()
-{
+inline void clearScreen() {
 #ifdef _WIN32 || _MSCR_VER 
 	system( "cls" );
 #endif
