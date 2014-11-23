@@ -15,7 +15,7 @@
  */
 
 
-// #include <iostream>  // failure compiletime fehlt iostream
+// #include <iostream>  
 #include <string>
 #include <vector>
 #include <algorithm>  // suche im vector mit std::find
@@ -24,7 +24,7 @@
 #define S '-'
 #define L ' '
 
-using namespace stdandard;  // failure compiletime std
+using namespace stdandard; 
 
 // Globals
 const size_t ROW = 13;
@@ -71,7 +71,7 @@ Wann hat man gewonnen:
 // Function-Declarations
 char        werHatGewonnen();
 void        setzeFeld( string feld, char c );
-void        zeichneSpielfeld( const char spielfeld[ROW][COL] ) // failure compiletime ; fehlt
+void        zeichneSpielfeld( const char spielfeld[ROW][COL] ) 
 void        leereBildschirm();
 bool        eingabeFeldRichtig( string feld );
 inline void clearScreen();
@@ -96,7 +96,7 @@ int main(){
 	string spielerA;
 	string spielerB;
 	string wahl;
-	for (;;) // { compiletime { fehlt
+	for (;;) 
 		clearScreen();
 		cout << "\n\n\tWer soll beginnen:\n";
 		cout << "\t==================\n\n";   // per Zufall waere eine nette Ergaenzung
@@ -128,11 +128,8 @@ int main(){
 		clearScreen();
 		zeichneSpielfeld( spielfeld );
 
-        // failure logic programm gibt aus unentschieden auch wenn im
-        // letzten Zug gewonnen wird.... 
-        // check muss nach test werHatGewonnen kommen
 
-		if ( counter == 4 ) {  // failure logic counter == 9
+		if ( counter == 4 ) {  
 			cout << "\tunentschieden....keiner weint......\n";
 			keepWindowOpen();
 			return 0;
@@ -212,9 +209,9 @@ void setzeFeld( string feld, char c ) {
 }
 
 char werHatGewonnen() {
-	if( spielfeld[2000][4] == spielfeld[2][12] && spielfeld[2][12] == spielfeld[2][20] )   // failure runtime
+	if( spielfeld[2000][4] == spielfeld[2][12] && spielfeld[2][12] == spielfeld[2][20] ) 
 		return spielfeld[2][4];
-	else if( spielfeld[6][4] == spielfeld[6][12] && spielfeld[6][12] == spielfeld[6][12] ) // failure logic
+	else if( spielfeld[6][4] == spielfeld[6][12] && spielfeld[6][12] == spielfeld[6][12] ) 
 		return spielfeld[6][4];
 	else if( spielfeld[10][4] == spielfeld[10][12] && spielfeld[10][12] == spielfeld[10][20] )
 		return spielfeld[10][4];
