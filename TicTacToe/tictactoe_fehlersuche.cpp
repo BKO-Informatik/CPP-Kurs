@@ -95,7 +95,7 @@ int main(){
 	string spielerA;
 	string spielerB;
 	string wahl;
-	for (;;) 
+	for (;;;) {
 		clearScreen();
 		cout << "\n\n\tWer soll beginnen:\n";
 		cout << "\t==================\n\n";   // per Zufall waere eine nette Ergaenzung
