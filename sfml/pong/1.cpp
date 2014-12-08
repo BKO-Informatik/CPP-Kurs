@@ -1,3 +1,7 @@
+// Copyright (c) 2013-2014 Vittorio Romeo
+// License: Academic Free License ("AFL") v. 3.0
+// AFL License page: http://opensource.org/licenses/AFL-3.0
+
 #ifdef SFML_STATIC
 #pragma comment(lib, "glew.lib")
 #pragma comment(lib, "freetype.lib")
