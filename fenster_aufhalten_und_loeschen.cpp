@@ -2,7 +2,7 @@
 #include <string>
 #include <stdlib.h>
 
-inline void keepWindowOpen() {
+inline void halteFensterAuf() {
 	std::cin.clear();
 	std::cout << "\n\tweiter mit beliebiger Taste....";
 	std::string tmp;
@@ -10,24 +10,23 @@ inline void keepWindowOpen() {
 }
 
 
-inline void clearScreen()
+inline void loescheFenster()
 {
-#if defined(_WIN32) 
+#if defined(_WIN32)
 	system("cls");
 #endif
-#if defined(LINUX)
-	system("clear");
+#if defined(__linux__) || defined(__unix__) 
+    system("clear");
 #endif
 }
 
 int main() {
-	for (size_t i = 0; i != 5; ++i) {
+	for(size_t i = 0; i != 5; ++i) {
 		std::cout << "\n\n\thhh\n";
-		weiter();
-		clearScreen();
-		std::cout << "\n\n\tjjjj\n";
-		weiter();
+		halteFensterAuf();
+		loescheFenster();
+        std::cout << "\n\n\tjjjj\n";
+        halteFensterAuf();
 	}
-	
 	return 0;
 }
