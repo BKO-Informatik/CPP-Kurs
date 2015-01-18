@@ -2,6 +2,8 @@
 #include <string>
 
 /*
+
+Dieses Programm von Sven funktioniert noch nicht....
 ich habe ein Programm geschrieben, das den Gaußschen Algorithmus berechnet.
 In dem Programm ist aber noch ein kleiner Fehler, denn es klappt nur mit folgenden Punkten.
  
