@@ -21,7 +21,7 @@
  *
  * Erweiter das Programm um eine Klasse: KartesischeKoordinate.
  * Gucke dir an, wie ich es gemacht habe. Du sollst meinen Code
- * weiterbenutzen. Diese soll erhalten bleiben.
+ * weiterbenutzen. Dieser soll erhalten bleiben.
  *
  * Gebe ein paar KartesischeKoordinaten ein, speicher diese in 
  * einem vector.
