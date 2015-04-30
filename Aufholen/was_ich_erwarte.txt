@@ -1,0 +1,13 @@
+
+Referat zu folgenden Themen:
+
+IPv4
+Inhalte:
+IP-Adresse
+Subnetmask (Subnetzmaske)
+Netzwerkteil / Hostteil
+NAT - Network Adress Translation
+
+
+
+Symetrsiche und Asymetrische Verschlüsselung
