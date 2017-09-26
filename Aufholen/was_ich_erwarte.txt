@@ -2,12 +2,39 @@
 Referat zu folgenden Themen:
 
 IPv4
+====
 Inhalte:
-IP-Adresse
+IP-Adressen (Klasse A Netzwerke, Klasse B Netzwerke und Klasse C)
 Subnetmask (Subnetzmaske)
 Netzwerkteil / Hostteil
+
+Zusatz:
 NAT - Network Adress Translation
 
+IPv6
+====
+Warum? Was sind die Probleme bei IPv4?
+Wie ist eine IPv6 Adresse aufgebaut....
+Kein NAT mehr uchu....was ist da so toll dran, kein nat mehr zu haben?
 
 
-Symetrsiche und Asymetrische Verschlüsselung
+
+Unterschied Symetrische und Asymetrischer Verschlüsselung
+========================================================
+Öffentlichen und Privaten Schlüssel...wie werden die genutzt....
+Es gibt super Farben Beispiele oder Briefumschläge.....
+
+
+Ich erwarte: 
+7 min Vortrag
+mit Folien oder Powerpoint
+mit Handout
+
+5 + 2 = 7 / 2 = 3.5 + 0.2
+6 + 3 = 9 / 2 = 4.5 + 0.2 
+
+Mike       IPv4
+Marcel H   IPv6
+Kilian     Verschlüsselung
+Fabian     IPv4
+Maximilian Verschlüsselung
